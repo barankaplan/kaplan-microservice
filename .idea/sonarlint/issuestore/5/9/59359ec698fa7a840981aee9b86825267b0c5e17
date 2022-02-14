@@ -1,0 +1,5 @@
+
+
+java:S1128"dRemove this unused import 'org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer'.(¥8Γ­¥‰ο/
+
+java:S1488"tImmediately return this expression instead of assigning it to the temporary variable "jackson2JsonMessageConverter".(βα›Κ
