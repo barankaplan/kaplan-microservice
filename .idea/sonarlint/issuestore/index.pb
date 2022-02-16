@@ -15,8 +15,6 @@ Dnotification/src/main/java/com/kaplan/notification/Notification.java,f/0/f0ed6
 Nnotification/src/main/java/com/kaplan/notification/NotificationRepository.java,3/a/3a0eb9565546f00c240d33599fe94c0d8130884a
 v
 Fclients/src/main/java/com/kaplan/clients/fraud/FraudCheckResponse.java,3/9/3973a262c4b7da852ddefcdc67e88191edd79910
-o
-?clients/src/main/java/com/kaplan/clients/fraud/FraudClient.java,7/a/7a0e5aa1e2221d8c681ae5ef0e611c2823c7043d
 r
 Bcustomer/src/main/java/com/kaplan/CustomerRegistrationRequest.java,9/3/936a4348858862b37b6466fe7c7c79b8d58d2192
 l
@@ -33,16 +31,12 @@ p
 Peureka-server/src/main/java/com/kaplan/eurekaserver/EurekaServerApplication.java,2/8/284567874ca0ce0e379e79a04dbcf67b0c24837a
 {
 Knotification/src/main/java/com/kaplan/notification/NotificationService.java,b/0/b04eb2ef8f0f36164dcf92548eff47a3cfc0fd2b
-q
-Afraud/src/main/java/com/kaplan/microservice/FraudApplication.java,d/b/db5334ae0831606dfe68b1c37653c923fddc6a07
 i
 9customer/src/main/java/com/kaplan/CustomerController.java,8/f/8f3603eb262436be414e02d22d71c0603b41f58f
 l
 <amqp/src/main/java/com/kaplan/amqp/RabbitMQConfigration.java,5/9/59359ec698fa7a840981aee9b86825267b0c5e17
 o
 ?amqp/src/main/java/com/kaplan/amqp/RabbitMQMessageProducer.java,e/e/eeabe5cde51f4861d8cc043d39c93ec8005e7d2b
-j
-:customer/src/main/java/com/kaplan/CustomerApplication.java,b/4/b4e184fb8b25b082eabd484dc1cc30d7a78331ab
 f
 6customer/src/main/java/com/kaplan/CustomerService.java,8/5/8519617ecf07c52931a8079df0ce9d5f339da1a5
 ~
@@ -51,8 +45,6 @@ Nnotification/src/main/java/com/kaplan/notification/NotificationController.java
 Qnotification/src/main/java/com/kaplan/notification/NotificationConfiguration.java,1/1/1172c557a66115c71e98d0a8fadf915cccef2572
 …
 Unotification/src/main/java/com/kaplan/notification/rabbitmq/NotificationConsumer.java,d/b/dbae2c21dc815b73215e547c347c67627e0ebf3d
-
-Onotification/src/main/java/com/kaplan/notification/NotificationApplication.java,5/3/532c4fa8a97fd396ff49e5455e7e1f0a3745b0f2
 <
 amqp/pom.xml,3/9/39d5bf97f55ed62f85d09f9444dcd78c9eb5188e
 ?

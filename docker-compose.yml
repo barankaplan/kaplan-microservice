@@ -43,29 +43,30 @@ services:
       - "15672:15672"
     networks:
       - spring
-  eureka-server:
-    image: kaplan89/eureka-server:latest
-    container_name: eureka-server
-    ports:
-      - "8761:8761"
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
-    networks:
-      - spring
-    depends_on:
-      - zipkin
-  apigw:
-    image: kaplan89/apigw:latest
-    container_name: apigw
-    ports:
-      - "8083:8083"
-    environment:
-      - SPRING_PROFILES_ACTIVE=docker
-    networks:
-      - spring
-    depends_on:
-      - zipkin
-      - eureka-server
+#  eureka-server:
+#    image: kaplan89/eureka-server:latest
+#    container_name: eureka-server
+#    ports:
+#      - "8761:8761"
+#    environment:
+#      - SPRING_PROFILES_ACTIVE=docker
+#    networks:
+#      - spring
+#    depends_on:
+#      - zipkin
+#  apigw:
+#    image: kaplan89/apigw:latest
+#    container_name: apigw
+#    ports:
+#      - "8083:8083"
+#    environment:
+#      - SPRING_PROFILES_ACTIVE=docker
+#    networks:
+#      - spring
+#    depends_on:
+#      - zipkin
+#      - eureka-server
+
   customer:
     image: kaplan89/customer:latest
     container_name: customer
@@ -108,7 +109,7 @@ services:
       - postgres
     depends_on:
       - zipkin
-      - eureka-server
+#      - eureka-server
       - postgres
       - rabbitmq
 networks:
